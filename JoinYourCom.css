@@ -1,0 +1,98 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #e6eff5;
+}
+.carre{
+
+    background-color:#ffffff;
+    width: 635px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+
+}
+.bloc1{
+   margin-top: 40px;
+   margin-left: 40px;
+   margin-bottom: 5%;
+}
+#titre1{
+    color: #2ab3b1;
+    font-size: 24px;
+    font-weight: bold;
+}
+#soustitre1{
+    color: #c0df33;
+    font-size: 18px;
+    font-weight: bold;
+}
+#texte1{
+    color: #9aa7be;
+    font-size: 16px;
+}
+.bloc2{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2ab3b1;
+    color: #ffffff;
+}
+.bloc21{
+    height: 259px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+#monthly{
+    font-size: 18px;
+    font-weight: bold;
+}
+#vingt{
+    font-size: 32px;
+    font-weight: bold;
+}
+#mois{
+    font-size: 16px;
+}
+#full{
+    font-size: 18px;
+}
+.prix{
+    display: flex;
+    align-items: baseline;
+}
+.bloc22{
+    background-color: #4bbfbd;
+    width: 51%;
+    height: 318px;
+}
+#why{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#textefin{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+@media (max-width:600px){
+    .carre{
+        width: 311px;
+        height: 722px
+    }
+    .bloc2{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc22{
+        width: 310px;
+        height: 318px;
+    }
+    .bloc21{
+        height: 318px;
+        
+    }
+}
